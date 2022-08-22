@@ -33,11 +33,7 @@
   border-radius: 7px;
 }
 .banner-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  position: relative;
-  display: grid;
-  grid-template-columns: 1fr 3fr;
+  display: flex;
   align-items: center;
 }
 h1.heading-text {
@@ -60,4 +56,7 @@ button.nav-button.btn {
 }
 img[alt="illustration"] {
   right: 0;
+}
+.banner-container-left {
+  margin-left: 60px;
 }
